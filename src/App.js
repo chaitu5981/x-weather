@@ -28,7 +28,7 @@ const App = () => {
       setLoading(false);
     }
   };
-  if (loading) return <p>Loading...</p>;
+  if (loading) return <p>Loading data...</p>;
   else
     return (
       <div className="cont">
